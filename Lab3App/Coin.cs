@@ -29,13 +29,14 @@ namespace Lab3App
 
         public override void Display()
         {
-            Console.WriteLine("Coin " + name + " is displayed");
+            Console.WriteLine(Description + " " + name + " is displayed");
         }
 
         public override void AddMe(List<Collectable> list)
         {
             Console.WriteLine(name + " Collected, Congrats!!!!");
             UpdateTotalScore();
+            UpdateTotalValue();
             list.Add(this);
         }
 

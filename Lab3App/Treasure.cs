@@ -9,7 +9,7 @@ namespace Lab3App
     internal abstract class Treasure : Collectable 
     {
 
-        public int Score;
+        public int Score = CollectionBoard.TotalScore;
 
         public abstract void UpdateTotalScore();
         public abstract override void AddMe(List<Collectable> list);

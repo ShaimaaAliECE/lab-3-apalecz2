@@ -25,12 +25,12 @@ namespace Lab3App
 
         public override void Display()
         {
-            Console.WriteLine("Magic Wand " + name + " is displayed");
+            Console.WriteLine("MagicWand " + name + " is displayed");
         }
 
         public override void DoAction()
         {
-            Console.WriteLine("Magic Wand is used");
+            Console.WriteLine("MagicWand is used");
         }
 
         

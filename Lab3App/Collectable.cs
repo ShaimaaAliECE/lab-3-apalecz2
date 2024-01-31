@@ -11,7 +11,7 @@ namespace Lab3App
 
         public CollectionBoard Board;
 
-        public string Description;
+        public string Description = "Coin";
 
         public abstract void AddMe(List<Collectable> list);
 

@@ -9,8 +9,6 @@ namespace Lab3App
     internal abstract class Tool : Collectable
     {
 
-        public string Description;
-
         public abstract void DoAction();
 
         public abstract override void AddMe(List<Collectable> list);
